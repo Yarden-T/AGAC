@@ -6,6 +6,8 @@
 AGAC (All Gaps Are Covered) is a deep learning project designed to bridge the **sim2real gap** in robotic tactile sensing. In robotic systems, models are often trained using simulated data, but they perform poorly when transferred to real-world environments due to differences between the simulation and reality. This project addresses the gap using two core models:
 1. **Contrastive Unpaired Translation (CUT)** for image domain adaptation.
 2. **FusiMod**, a custom-built multimodal fusion model for adapting numerical data.
+3. **Data cleaning**, comparing the generated and  simulated sets of XYZ coordinates and detecting errors to improve the accuracy of the data.
+
 
 The goal is to enhance the realism of simulated tactile sensor images and improve the accuracy of the numerical data associated with them. By doing so, AGAC improves performance in real-world applications without the need for extensive data collection from real environments.
 
